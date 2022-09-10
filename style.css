@@ -39,6 +39,12 @@ a {
   color: #bf616a;
 }
 
+@media screen and (max-width: 1225px) {
+    pre {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1216px) {
   input {
     width: 70%;
