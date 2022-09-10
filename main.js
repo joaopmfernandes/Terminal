@@ -75,7 +75,7 @@ function processaComando(ultimoComando, listaComandos) {
       var tag2 = document.createElement("a");
       var link = document.createTextNode("cv/joaopmfernandes");
       tag2.appendChild(link);
-      tag2.href = "joaopmfernandes.github.io/Terminal/assets/cv_jf_agosto22.pdf";
+      tag2.href = "/assets/cv_jf_agosto22.pdf";
       tag2.target = "_blank";
       var newElement = document.getElementById("new");
       tag1.appendChild(tag2);
