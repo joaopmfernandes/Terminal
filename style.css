@@ -1,0 +1,63 @@
+body {
+  background-color: #2e3440;
+  color: white;
+  font-family: "Source Code Pro", monospace;
+}
+
+new {
+  display: flex;
+}
+
+pre {
+  color: #81a1c1;
+}
+
+input {
+  background: transparent;
+  color: white;
+  font-family: "Source Code Pro", monospace;
+  font-size: 16px;
+  font-weight: 400;
+  width: 80%;
+  border: none;
+  padding: 0px;
+}
+
+input:focus {
+  outline: none;
+}
+
+a {
+  color: #8fbcbb;
+}
+
+.comandosDaLista {
+  color: #81a1c1;
+}
+
+#error {
+  color: #bf616a;
+}
+
+@media screen and (max-width: 1216px) {
+  input {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  input {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 616px) {
+  input {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 496px) {
+  input {
+    width: 15%;
+  }
+}
