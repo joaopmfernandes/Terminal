@@ -1,7 +1,9 @@
-body {
+html, body {
   background-color: #2e3440;
   color: white;
   font-family: "Source Code Pro", monospace;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 new {
