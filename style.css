@@ -42,7 +42,7 @@ a {
   color: #bf616a;
 }
 
-@media screen and (max-width: 1225px) {
+@media screen and (max-width: 1250px) {
     pre {
         display: none;
     }
